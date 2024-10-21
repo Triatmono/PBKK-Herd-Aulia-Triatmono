@@ -186,7 +186,9 @@ public function scopeFilter(Builder $query, array $filters):void{
     );
     
 }
-```php
+```
+
+```html
 <form>
           @if(request('category'))
           <input type="hidden" name="category" value="{{ request('category') }}">
